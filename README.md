@@ -24,19 +24,19 @@ Managing a blood bank involves numerous tasks such as registering donors, handli
 ```bash
 py manage.py createsuperuser
 ```
-Dashboard: Monitor blood units by group, donor count, blood requests, approved requests, and total stock.
+**Dashboard:** Monitor blood units by group, donor count, blood requests, approved requests, and total stock.
 
-Manage Donors: View, edit, and delete donor information.
+**Manage Donors:** View, edit, and delete donor information.
 
-Manage Patients: View, edit, and delete patient details.
+**Manage Patients:** View, edit, and delete patient details.
 
-Approve/Reject Donations: Evaluate donation requests based on health criteria and update blood stock accordingly.
+**Approve/Reject Donations:** Evaluate donation requests based on health criteria and update blood stock accordingly.
 
-Approve/Reject Blood Requests: Process blood requests and adjust inventory.
+**Approve/Reject Blood Requests:** Process blood requests and adjust inventory.
 
-Track History: Maintain a detailed history of all blood requests.
+**Track History:** Maintain a detailed history of all blood requests.
 
-Update Inventory: Adjust the quantity of specific blood groups as needed.
+**Update Inventory:** Adjust the quantity of specific blood groups as needed.
 
 ## **Donor Features**
 **Registration:** Donors can sign up by providing basic information.
@@ -91,10 +91,10 @@ Donors and patients can register and log in to use their respective features.
 **Required Dependencies:**
 The following dependencies are necessary to run the Blood Bank Management System:
 
--Django
--SQLite
--Other packages listed in requirements.txt
--Install them with:
+-[Django]
+-[SQLite]
+[-Other packages listed in requirements.txt]
+[-Install them with:]
 
 ```bash
 pip install -r requirements.txt
