@@ -91,17 +91,17 @@ Donors and patients can register and log in to use their respective features.
 **Required Dependencies:**
 The following dependencies are necessary to run the Blood Bank Management System:
 
--[Django]
--[SQLite]
-[-Other packages listed in requirements.txt]
-[-Install them with:]
+- [Django]
+- [SQLite]
+- [Other packages listed in requirements.txt]
 
+Install them with:
 ```bash
 pip install -r requirements.txt
 ```
 
-##**Contributing Guidelines** 
+## **Contributing Guidelines** 
 We welcome contributions! Please fork the repository, make your changes, and submit a pull request.
 
-##**License Information**
+## **License Information**
 This project is licensed under the MIT License. See the LICENSE file for more details.
