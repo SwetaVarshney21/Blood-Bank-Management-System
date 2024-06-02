@@ -1,7 +1,7 @@
 # **Blood Bank Management System**
 
 ## **Overview**
-The Blood Bank Management System is a sophisticated application developed using Python and Django to streamline the management of blood donations, inventory, and requests. This system is designed to enhance the efficiency of blood banks by providing a comprehensive platform for tracking donors, patients, and blood stock.
+The Blood Bank Management System is a robust application developed using Python and Django to streamline the management of blood donations, inventory, and requests. This system is designed to enhance the efficiency of blood banks by providing a comprehensive platform for tracking donors, patients, and blood stock.
 
 ## **Table of Contents**
 - [Introduction](#introduction)
