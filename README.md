@@ -25,12 +25,19 @@ Managing a blood bank involves numerous tasks such as registering donors, handli
 py manage.py createsuperuser
 ```
 Dashboard: Monitor blood units by group, donor count, blood requests, approved requests, and total stock.
+
 Manage Donors: View, edit, and delete donor information.
+
 Manage Patients: View, edit, and delete patient details.
+
 Approve/Reject Donations: Evaluate donation requests based on health criteria and update blood stock accordingly.
+
 Approve/Reject Blood Requests: Process blood requests and adjust inventory.
+
 Track History: Maintain a detailed history of all blood requests.
+
 Update Inventory: Adjust the quantity of specific blood groups as needed.
+
 ## **Donor Features**
 **Registration:** Donors can sign up by providing basic information.
 
@@ -57,39 +64,44 @@ Update Inventory: Adjust the quantity of specific blood groups as needed.
 ```bash
 cd bloodbankmanagement
 ```
-Install Required Packages:
+**Install Required Packages:**
 ```bash
 python -m pip install -r requirements.txt
 ```
-Set Up Database:
+**Set Up Database:**
 ```bash
 py manage.py makemigrations
 py manage.py migrate
 ```
-Start the Server:
+**Start the Server:**
 ```bash
 py manage.py runserver
 ```
-Access the Application: Open ```http://127.0.0.1:8000/``` in your web browser.
-#Usage Instructions
-Admin Configuration:
+**Access the Application:**
+Open ```http://127.0.0.1:8000/``` in your web browser.
+
+##**Usage Instructions**
+
+**Admin Configuration:**
 Create an admin account and log in to access the admin dashboard.
-User Registration:
+
+**User Registration:**
 Donors and patients can register and log in to use their respective features.
-Required Dependencies
+
+**Required Dependencies:**
 The following dependencies are necessary to run the Blood Bank Management System:
 
-Django
-SQLite
-Other packages listed in requirements.txt
-Install them with:
+-Django
+-SQLite
+-Other packages listed in requirements.txt
+-Install them with:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
+```
 
-#Contributing Guidelines
+##**Contributing Guidelines** 
 We welcome contributions! Please fork the repository, make your changes, and submit a pull request.
 
-#License Information
+##**License Information**
 This project is licensed under the MIT License. See the LICENSE file for more details.
