@@ -55,47 +55,47 @@ py manage.py createsuperuser
 - **Dashboard:** View the status of blood requests made.
 
 ## **Installation Guide**
-**Install Python (3.7.6):** Ensure Python is added to the system PATH.
+- **Install Python (3.7.6):** Ensure Python is added to the system PATH.
 
-**Download and Extract Project:** Obtain the project zip file and extract it.
+- **Download and Extract Project:** Obtain the project zip file and extract it.
 
-**Navigate to Project Directory:**
+- **Navigate to Project Directory:**
 
 ```bash
 cd bloodbankmanagement
 ```
-**Install Required Packages:**
+- **Install Required Packages:**
 ```bash
 python -m pip install -r requirements.txt
 ```
-**Set Up Database:**
+- **Set Up Database:**
 ```bash
 py manage.py makemigrations
 py manage.py migrate
 ```
-**Start the Server:**
+- **Start the Server:**
 ```bash
 py manage.py runserver
 ```
-**Access the Application:**
+- **Access the Application:**
 Open ```http://127.0.0.1:8000/``` in your web browser.
 
 ## **Usage Instructions**
 
-**Admin Configuration:**
+- **Admin Configuration:**
 Create an admin account and log in to access the admin dashboard.
 
-**User Registration:**
+- **User Registration:**
 Donors and patients can register and log in to use their respective features.
 
-**Required Dependencies:**
+- **Required Dependencies:**
 The following dependencies are necessary to run the Blood Bank Management System:
 
 - [Django]
 - [SQLite]
 - [Other packages listed in requirements.txt]
 
-Install them with:
+**Install them with:**
 ```bash
 pip install -r requirements.txt
 ```
