@@ -22,7 +22,6 @@ Managing a blood bank involves numerous tasks such as registering donors, handli
 ## **Admin Features**
 - **Create Admin Account:** Set up an admin account using:
 ```bash
-Copy code
 py manage.py createsuperuser
 ```
 Dashboard: Monitor blood units by group, donor count, blood requests, approved requests, and total stock.
@@ -34,36 +33,44 @@ Track History: Maintain a detailed history of all blood requests.
 Update Inventory: Adjust the quantity of specific blood groups as needed.
 ## **Donor Features**
 **Registration:** Donors can sign up by providing basic information.
+
 **Donate Blood:** Submit donation requests and track their approval status.
+
 **Request Blood:** Request blood units and view request history.
+
 **Dashboard:** View statistics on blood donation and request statuses.
 
 ## **Patient Features**
 **Registration:** Patients can create accounts without admin approval.
+
 **Request Blood:** Submit blood requests and track their approval status.
+
 **Dashboard:** View the status of blood requests made.
 
 ## **Installation Guide**
 **Install Python (3.7.6):** Ensure Python is added to the system PATH.
+
 **Download and Extract Project:** Obtain the project zip file and extract it.
+
 **Navigate to Project Directory:**
+
 ```bash
-Copy code
 cd bloodbankmanagement
+```
 Install Required Packages:
-bash
-Copy code
+```bash
 python -m pip install -r requirements.txt
+```
 Set Up Database:
-bash
-Copy code
+```bash
 py manage.py makemigrations
 py manage.py migrate
+```
 Start the Server:
-bash
-Copy code
+```bash
 py manage.py runserver
-Access the Application: Open http://127.0.0.1:8000/ in your web browser.
+```
+Access the Application: Open ```http://127.0.0.1:8000/``` in your web browser.
 #Usage Instructions
 Admin Configuration:
 Create an admin account and log in to access the admin dashboard.
