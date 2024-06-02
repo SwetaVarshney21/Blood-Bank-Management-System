@@ -24,35 +24,35 @@ Managing a blood bank involves numerous tasks such as registering donors, handli
 ```bash
 py manage.py createsuperuser
 ```
-**Dashboard:** Monitor blood units by group, donor count, blood requests, approved requests, and total stock.
+- **Dashboard:** Monitor blood units by group, donor count, blood requests, approved requests, and total stock.
 
-**Manage Donors:** View, edit, and delete donor information.
+- **Manage Donors:** View, edit, and delete donor information.
 
-**Manage Patients:** View, edit, and delete patient details.
+- **Manage Patients:** View, edit, and delete patient details.
 
-**Approve/Reject Donations:** Evaluate donation requests based on health criteria and update blood stock accordingly.
+- **Approve/Reject Donations:** Evaluate donation requests based on health criteria and update blood stock accordingly.
 
-**Approve/Reject Blood Requests:** Process blood requests and adjust inventory.
+- **Approve/Reject Blood Requests:** Process blood requests and adjust inventory.
 
-**Track History:** Maintain a detailed history of all blood requests.
+- **Track History:** Maintain a detailed history of all blood requests.
 
-**Update Inventory:** Adjust the quantity of specific blood groups as needed.
+- **Update Inventory:** Adjust the quantity of specific blood groups as needed.
 
 ## **Donor Features**
-**Registration:** Donors can sign up by providing basic information.
+- **Registration:** Donors can sign up by providing basic information.
 
-**Donate Blood:** Submit donation requests and track their approval status.
+- **Donate Blood:** Submit donation requests and track their approval status.
 
-**Request Blood:** Request blood units and view request history.
+- **Request Blood:** Request blood units and view request history.
 
-**Dashboard:** View statistics on blood donation and request statuses.
+- **Dashboard:** View statistics on blood donation and request statuses.
 
 ## **Patient Features**
-**Registration:** Patients can create accounts without admin approval.
+- **Registration:** Patients can create accounts without admin approval.
 
-**Request Blood:** Submit blood requests and track their approval status.
+- **Request Blood:** Submit blood requests and track their approval status.
 
-**Dashboard:** View the status of blood requests made.
+- **Dashboard:** View the status of blood requests made.
 
 ## **Installation Guide**
 **Install Python (3.7.6):** Ensure Python is added to the system PATH.
@@ -80,7 +80,7 @@ py manage.py runserver
 **Access the Application:**
 Open ```http://127.0.0.1:8000/``` in your web browser.
 
-##**Usage Instructions**
+## **Usage Instructions**
 
 **Admin Configuration:**
 Create an admin account and log in to access the admin dashboard.
