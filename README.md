@@ -11,7 +11,6 @@ The Blood Bank Management System is a sophisticated application developed using 
 - [Installation Guide](#installation-guide)
 - [Usage Instructions](#usage-instructions)
 - [Required Dependencies](#required-dependencies)
-- [Screenshots](#screenshots)
 - [Contributing Guidelines](#contributing-guidelines)
 - [License Information](#license-information)
 
@@ -25,6 +24,7 @@ Managing a blood bank involves numerous tasks such as registering donors, handli
 ```bash
 Copy code
 py manage.py createsuperuser
+```
 Dashboard: Monitor blood units by group, donor count, blood requests, approved requests, and total stock.
 Manage Donors: View, edit, and delete donor information.
 Manage Patients: View, edit, and delete patient details.
